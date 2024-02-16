@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Autoteile Online. Startseite">
+  <meta name="description" content="Autoteile online kaufen. Startseite">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Autoteile Online: Startseite</title>
   <link rel="stylesheet" href="css/normalize.css">
@@ -15,11 +15,29 @@
     <div class="header__wrapper">
       <div class="header__top">
         <div class="header__top-container">
+          <h1 class="visually-hidden">Autoteile Online: Startseite</h1>
+          <button class="header__menu-toggle" type="button">
+            <span class="visually-hidden">Menü öffnen</span>
+            <span class="header__menu-toggle-bar"></span>
+          </button>
           <a class="logo">
             <img src="img/logo.svg" alt="Logo der Autoteile Online" width="102" height="52">
           </a>
           <div class="menu">
             <div class="menu__wrapper">
+              <!-- mobile start -->
+              <ul class="menu__user">
+                <li class="menu__user-item">
+                  <a class="menu__user-link menu__user-link--log-in" href="#">Anmelden</a>
+                </li>
+                <li class="menu__user-item">
+                  <a class="menu__user-link menu__user-link--sign-up" href="#">Registrieren</a>
+                </li>
+                <li class="menu__user-item">
+                  <a class="menu__user-link menu__user-link--favorites" href="#">Favoriten</a>
+                </li>
+              </ul>
+              <!-- mobile end -->
               <ul class="menu__main">
                 <li class="menu__main-item">
                   <a class="menu__main-link menu__main-link--shops" href="#">Shops</a>
@@ -31,8 +49,36 @@
                   <a class="menu__main-link menu__main-link--delivery" href="#">Lieferung</a>
                 </li>
               </ul>
+              <!-- mobile start -->
+              <ul class="menu__categories">
+                <li class="menu__categories-item">
+                  <a class="menu__categories-link" href="#">Ersatzteilkatalog</a>
+                </li>
+                <li class="menu__categories-item">
+                  <a class="menu__categories-link" href="#">Wartungskatalog</a>
+                </li>
+                <li class="menu__categories-item">
+                  <a class="menu__categories-link" href="#">Reifen</a>
+                </li>
+                <li class="menu__categories-item">
+                  <a class="menu__categories-link" href="#">Räder</a>
+                </li>
+                <li class="menu__categories-item">
+                  <a class="menu__categories-link" href="#">Batterien</a>
+                </li>
+                <li class="menu__categories-item">
+                  <a class="menu__categories-link" href="#">Motorenöle</a>
+                </li>
+                <li class="menu__categories-item">
+                  <a class="menu__categories-link" href="#">Lampen</a>
+                </li>
+                <li class="menu__categories-item">
+                  <a class="menu__categories-link" href="#">Zubehör</a>
+                </li>
+              </ul>
+              <!-- mobile end -->
+              <a class="menu__address" href="#">Strasse, Haus-Nr., PLZ Stadt</a>
             </div>
-            <a class="menu__address" href="#">Strasse und Hausnummer, PLZ Stadt</a>
           </div>
           <ul class="user-nav">
             <li class="user-nav__item">
@@ -49,7 +95,7 @@
           </ul>
         </div>
       </div>
-      <nav class="header__bottom">
+      <nav class="header__bottom nav">
         <div class="header__bottom-container">
           <ul class="nav__list">
             <li class="nav__item">
